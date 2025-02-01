@@ -1,0 +1,492 @@
+@media screen and (max-width: 1080px) {
+  nav ul {
+    position: absolute;
+    top: 69px;
+    left: auto;
+    right: 20px;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: 350px;
+    max-width: 100%;
+    gap: 0px;
+    border-radius: 0px 0px 10px 10px;
+    overflow: hidden;
+  }
+  nav ul li {
+    padding: 10px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  #menuList {
+    transition: all 0.5s;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .title-wrapper > div {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  section.header-section {
+    background-position: 100%;
+    padding-top: 100px;
+  }
+  section.pt-0 {
+    margin-top: -100px;
+  }
+  .header-title {
+    font-size: 54px;
+  }
+  h2 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+  .align-start {
+    text-align: center;
+  }
+  .element-wrapper {
+    margin-top: 50px;
+  }
+  .card-block {
+    width: 50vw;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .hero-wrapper {
+    z-index: 1;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-title {
+    justify-content: center;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  .jt-sir-image {
+    left: auto;
+    right: 5%;
+  }
+  .hero-title-wrapper {
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 50px;
+  }
+  .hero-image-block {
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .featured-wrapper {
+    grid-row-gap: 10px;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .featured-card {
+    max-width: 23.9%;
+  }
+  .hero-section-overlap {
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0.8) 50%,
+      rgba(0, 0, 0, 0.6)
+    );
+  }
+  .row {
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    flex-flow: wrap;
+  }
+  .about-block {
+    grid-row-gap: 30px;
+    flex-flow: wrap;
+  }
+  .lightbox-2 {
+    max-width: 280px;
+  }
+  .flex-block {
+    width: 100%;
+  }
+  .skill-card-wrapper {
+    flex-flow: wrap;
+  }
+  .skill-card {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    border-bottom: 1px solid #e0e0e0;
+    flex-flow: row;
+    align-items: center;
+    width: 50%;
+    padding: 30px 20px;
+  }
+  .skill-card.last {
+    border-bottom-style: none;
+    border-right-style: solid;
+  }
+  .skill-card._2 {
+    border-right-style: none;
+  }
+  .project-image {
+    width: 100%;
+    max-width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .project-detail {
+    width: 100%;
+  }
+  .project-detail._2 {
+    padding-left: 0;
+  }
+  .project-detail._1 {
+    padding-right: 0;
+  }
+  .project-row {
+    flex-flow: wrap;
+    margin-bottom: 70px;
+    gap: 50px;
+  }
+  .project-row._2 {
+    flex-flow: wrap-reverse;
+  }
+  .video-gallery {
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr;
+  }
+  .line-card {
+    padding: 20px 25px;
+  }
+  .row-block {
+    max-width: 100%;
+  }
+  .cta-wrapper {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .cta-wrapper.desktop {
+    display: none;
+  }
+  .cta-wrapper.mobile {
+    margin-top: 0;
+  }
+  .cta-block {
+    text-align: left;
+  }
+  .contact-wrapper {
+    max-width: 550px;
+  }
+  .bg {
+    background-color: #f8f8f8;
+  }
+  .hero-card-block {
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: -50px;
+    position: relative;
+  }
+  .mobile-card {
+    z-index: 10;
+    display: block;
+    position: relative;
+  }
+}
+@media screen and (max-width: 767px) {
+  header {
+    max-width: 100%;
+  }
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  section.pt-0 {
+    margin-top: -80px;
+  }
+  .header-title {
+    font-size: 45px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .list.project-list {
+    margin-top: 20px;
+  }
+  .element-wrapper {
+    margin-top: 40px;
+  }
+  .number {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .card-block {
+    min-height: 100%;
+    padding: 20px;
+  }
+  .skill-icon {
+    width: 40px;
+    height: 40px;
+  }
+  .footer-wrapper {
+    flex-wrap: wrap;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .body {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .logo-image {
+    max-width: 170px;
+  }
+  nav ul {
+    top: 55px;
+  }
+  .hero-title-wrapper {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .hero-image-block {
+    width: 75%;
+  }
+  .featured-wrapper {
+    grid-column-gap: 7px;
+    grid-row-gap: 7px;
+  }
+  .featured-card {
+    max-width: 23.9%;
+    padding: 3px;
+  }
+  .comman-buttton {
+    max-width: 150px;
+    max-height: 30px;
+  }
+  .button-wrapper {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  .lightbox-2 {
+    max-width: 200px;
+  }
+  .project-row {
+    margin-bottom: 50px;
+  }
+  .line-card {
+    width: 85%;
+  }
+  .line-card-block {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .line-card-block.left {
+    flex-flow: row-reverse;
+  }
+  .line-card-block.left.mb-0 {
+    margin-bottom: 0;
+  }
+  .center-line {
+    left: 0%;
+  }
+  .connector {
+    width: 25%;
+  }
+  .connector.left {
+    flex-flow: row-reverse;
+    margin-left: -7.5px;
+    margin-right: -10px;
+  }
+  .cta-block {
+    max-width: 230px;
+  }
+  .cta-header {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .contact-wrapper {
+    max-width: 420px;
+  }
+  .contact-title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .container {
+    max-width: none;
+  }
+  section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  section.pt-0 {
+    margin-top: -60px;
+  }
+  .header-title {
+    align-items: center;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+  }
+  .social-link-block {
+    width: 45px;
+    height: 45px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  .list.project-list {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .list-item {
+    background-size: auto 12px;
+    margin-bottom: 7px;
+    padding-left: 15px;
+  }
+  .list-item.mb-0 {
+    margin-bottom: 0;
+  }
+  .element-wrapper {
+    margin-top: 30px;
+  }
+  .card-block {
+    width: 100vw;
+    min-height: 100%;
+  }
+  .play-icon {
+    max-width: 40px;
+    height: 40px;
+    padding: 10px 10px 10px 15px;
+  }
+  .book-row {
+    flex-wrap: wrap;
+  }
+  .book-image {
+    max-height: 170px;
+  }
+  .footer-wrapper {
+    justify-content: center;
+  }
+  h3 {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  nav ul {
+    left: 0px;
+    right: 0px;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+  }
+  .logo-image {
+    max-width: 130px;
+  }
+  .hero-image-block {
+    width: 100%;
+  }
+  .featured-card {
+    max-width: 48.5%;
+  }
+  .header-pera {
+    font-size: 16px;
+    line-height: 27px;
+  }
+  .row {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+  }
+  .mockup._2 {
+    margin-right: -15px;
+  }
+  .mockup._3 {
+    margin-left: -15px;
+  }
+  .button-block {
+    grid-column-gap: 10px;
+    justify-content: center;
+  }
+  .comman-buttton {
+    max-width: 110px;
+  }
+  .button-wrapper {
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .about-block {
+    grid-row-gap: 20px;
+  }
+  .lightbox-2 {
+    max-width: 166px;
+  }
+  .linear-color {
+    padding-left: 3px;
+    padding-right: 5px;
+  }
+  .project-image {
+    max-width: 100%;
+  }
+  .skill-card {
+    border-right-style: none;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .skill-card.last {
+    border-right-style: none;
+  }
+  .video-gallery {
+    grid-template-columns: 1fr;
+  }
+  .line-card {
+    width: 95%;
+  }
+  .circle.small {
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+  }
+  .circle.big {
+    width: 15px;
+    height: 15px;
+  }
+  .connector.left,
+  .connector.right {
+    width: 15%;
+    margin-left: -4px;
+    margin-right: -7.5px;
+  }
+  .cta-wrapper.mobile {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cta-block {
+    width: 100%;
+    max-width: 100%;
+  }
+  .contact-wrapper {
+    padding: 20px 15px;
+  }
+  .contact-title {
+    font-size: 20px;
+  }
+}
