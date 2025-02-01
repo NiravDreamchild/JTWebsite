@@ -19,6 +19,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  // Attach function to window object for external calls
+  window.openLightbox = openLightbox;
+
   // Function to close the lightbox
   function closeLightbox() {
     lightboxModal.style.display = "none";
