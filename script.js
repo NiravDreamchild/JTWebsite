@@ -54,3 +54,26 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const cardWrapper = document.querySelector(".card-flex-wrapper");
+  const speed = 1; // Adjust speed for smoothness
+
+  // Duplicate the content to create a seamless loop
+  cardWrapper.innerHTML += cardWrapper.innerHTML;
+
+  let position = 0;
+
+  function moveCards() {
+    position -= speed;
+    cardWrapper.style.transform = `translateX(${position}px)`;
+
+    // Reset when half of the cloned content has scrolled out
+    if (Math.abs(position) >= cardWrapper.scrollWidth / 2) {
+      position = 0;
+    }
+
+    requestAnimationFrame(moveCards);
+  }
+
+  moveCards();
+});
