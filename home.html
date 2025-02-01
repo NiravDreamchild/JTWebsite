@@ -16,6 +16,7 @@
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link href="lightbox.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -1070,24 +1071,8 @@
         </h2>
         <div class="element-wrapper">
           <div class="featured-wrapper">
-            <div class="featured-card">
-              <div class="image-container">
-                <img
-                  src="img/n-divyabhaskar.webp"
-                  alt="Image 1"
-                  class="thumbnail"
-                  data-image-url="http://127.0.0.1:5500/img/JT%20-intro.webp"
-                />
-              </div>
-
-              <div id="lightbox" class="lightbox">
-                <div class="lightbox-content">
-                  <span class="close">&times;</span>
-                  <img id="lightbox-image" src="" alt="Lightbox Image" />
-                </div>
-              </div>
-            </div>
             <div
+              onclick="openLightbox('image','https://picsum.photos/200/300')"
               class="featured-card"
               style="
                 opacity: 1;
@@ -1096,21 +1081,15 @@
                 transform-style: preserve-3d;
               "
             >
-              <a
-                href="#"
-                class="w-inline-block w-lightbox"
-                aria-label="open lightbox"
-                aria-haspopup="dialog"
-              >
-                <img
-                  src="img/n-hello-entreprenurs.webp"
-                  loading="lazy"
-                  alt="News Image"
-                  class="feature-thumbnail"
-                />
-              </a>
+              <img
+                src="img/n-divyabhaskar.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
             </div>
             <div
+              onclick="openLightbox('image','https://picsum.photos/200/300')"
               class="featured-card"
               style="
                 opacity: 1;
@@ -1119,21 +1098,15 @@
                 transform-style: preserve-3d;
               "
             >
-              <a
-                href="#"
-                class="w-inline-block w-lightbox"
-                aria-label="open lightbox"
-                aria-haspopup="dialog"
-              >
-                <img
-                  src="img/n-gujarat mitra.webp"
-                  loading="lazy"
-                  alt="News Image"
-                  class="feature-thumbnail"
-                />
-              </a>
+              <img
+                src="img/n-hello-entreprenurs.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
             </div>
             <div
+              onclick="openLightbox('image','https://picsum.photos/200/300')"
               class="featured-card"
               style="
                 opacity: 1;
@@ -1142,21 +1115,15 @@
                 transform-style: preserve-3d;
               "
             >
-              <a
-                href="#"
-                class="w-inline-block w-lightbox"
-                aria-label="open lightbox"
-                aria-haspopup="dialog"
-              >
-                <img
-                  src="img/n-nyt.webp"
-                  loading="lazy"
-                  alt="News Image"
-                  class="feature-thumbnail"
-                />
-              </a>
+              <img
+                src="img/n-gujarat mitra.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
             </div>
             <div
+              onclick="openLightbox('image','https://picsum.photos/200/300')"
               class="featured-card"
               style="
                 opacity: 1;
@@ -1165,21 +1132,15 @@
                 transform-style: preserve-3d;
               "
             >
-              <a
-                href="#"
-                class="w-inline-block w-lightbox"
-                aria-label="open lightbox"
-                aria-haspopup="dialog"
-              >
-                <img
-                  src="img/n-dhabkar.webp"
-                  loading="lazy"
-                  alt="News Image"
-                  class="feature-thumbnail"
-                />
-              </a>
+              <img
+                src="img/n-nyt.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
             </div>
             <div
+              onclick="openLightbox('image','https://picsum.photos/200/300')"
               class="featured-card"
               style="
                 opacity: 1;
@@ -1188,21 +1149,15 @@
                 transform-style: preserve-3d;
               "
             >
-              <a
-                href="#"
-                class="w-inline-block w-lightbox"
-                aria-label="open lightbox"
-                aria-haspopup="dialog"
-              >
-                <img
-                  src="img/n-gujaratsamachar.webp"
-                  loading="lazy"
-                  alt="News Image"
-                  class="feature-thumbnail"
-                />
-              </a>
+              <img
+                src="img/n-dhabkar.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
             </div>
             <div
+              onclick="openLightbox('image','https://picsum.photos/200/300')"
               class="featured-card"
               style="
                 opacity: 1;
@@ -1211,19 +1166,29 @@
                 transform-style: preserve-3d;
               "
             >
-              <a
-                href="#"
-                class="w-inline-block w-lightbox"
-                aria-label="open lightbox"
-                aria-haspopup="dialog"
-              >
-                <img
-                  src="img/n-toi.webp"
-                  loading="lazy"
-                  alt="News Image"
-                  class="feature-thumbnail"
-                />
-              </a>
+              <img
+                src="img/n-gujaratsamachar.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
+            </div>
+            <div
+              onclick="openLightbox('image','https://picsum.photos/200/300')"
+              class="featured-card"
+              style="
+                opacity: 1;
+                transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
+                  rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+                transform-style: preserve-3d;
+              "
+            >
+              <img
+                src="img/n-toi.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
             </div>
           </div>
         </div>
@@ -1345,5 +1310,6 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="lightbox-plus-jquery.js"></script>
   </body>
 </html>
