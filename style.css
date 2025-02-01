@@ -62,8 +62,11 @@ body {
 
 .lightbox-modal .lightbox-content {
   position: relative;
-  max-width: 90%;
   max-height: 90%;
+  max-width: 800px;
+  width: 800px;
+  aspect-ratio: 16/9;
+  margin: 20px;
 }
 
 .lightbox-video,
@@ -736,7 +739,6 @@ h3 {
   left: 50%;
 }
 .circle {
-  z-index: 10;
   background-image: linear-gradient(130deg, #02b9ef, #002d78 50%, #752886);
   border-radius: 100%;
   flex: none;
