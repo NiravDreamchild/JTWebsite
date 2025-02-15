@@ -807,9 +807,9 @@ h3 {
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   display: flex;
+  align-items: center;
 }
 .cta-arrow {
-  filter: invert();
   width: 15px;
 }
 .contact-wrapper {
