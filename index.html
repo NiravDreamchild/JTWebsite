@@ -1,0 +1,1299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Jitendra Timbadiya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsivestyle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link href="lightbox.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <nav>
+          <a href="/" aria-current="page" class="logo" aria-label="home">
+            <img
+              src="img/JT-logo.svg"
+              loading="lazy"
+              alt="Logo"
+              class="logo-image"
+            />
+          </a>
+          <ul id="menuList">
+            <li><a href="#About">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#Project">Project</a></li>
+            <li><a href="#Skill">Skill</a></li>
+            <li><a href="#video">Video</a></li>
+            <li><a href="#Achievement">Achievement</a></li>
+            <li><a href="#photo">Photo</a></li>
+            <li><a href="#Featured">Featured</a></li>
+            <li><a href="#Book">Book</a></li>
+          </ul>
+          <div class="menu-icon">
+            <img
+              src="img/menu-icon.svg"
+              alt="menu-icon"
+              onclick="toggleMenu()"
+            />
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <script>
+      let menuList = document.getElementById("menuList");
+      menuList.style.maxHeight = "0px";
+
+      function toggleMenu() {
+        if (menuList.style.maxHeight == "0px") {
+          menuList.style.maxHeight = "700px";
+        } else {
+          menuList.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+    <section class="header-section">
+      <div class="hero-section-overlap"></div>
+      <div class="container">
+        <div class="hero-wrapper">
+          <div class="hero-title-wrapper">
+            <div class="title-wrapper">
+              <h1>Jitendra Timbadiya</h1>
+              <div></div>
+            </div>
+            <div class="text-tricker-mask">
+              <div class="text-triker-wrapper">
+                <div class="header-title">Garbh Sanskar Expert</div>
+                <div class="header-title">Parenting Expert</div>
+                <div class="header-title">Master Trainer</div>
+                <div class="header-title">Spiritual Coach</div>
+                <div class="header-title">Concept Creator</div>
+                <div class="header-title">Writer and Poet</div>
+                <div class="header-title">Music Composer</div>
+              </div>
+            </div>
+            <p class="header-pera">
+              On a Mission to make ‘New India’ by Garbh Sanskar and Parenting.
+            </p>
+            <div class="cta-wrapper desktop">
+              <a href="#Contact" class="cta-block">
+                <div class="cta-header">
+                  <div>Book <br />a Seminar</div>
+                  <div class="skill-icon">
+                    <img
+                      src="img/seminar.svg"
+                      loading="lazy"
+                      alt="Seminar icon"
+                    />
+                  </div>
+                </div>
+                <div class="cta-bottom">
+                  <p>Contact us</p>
+                  <img
+                    src="img/link.svg"
+                    class="cta-arrow"
+                    loading="lazy"
+                    alt="Link icon"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://www.dreamchild.in/events"
+                class="cta-block"
+                target="_blank"
+              >
+                <div class="cta-header">
+                  <p>Upcoming<br />Events</p>
+                  <div class="skill-icon">
+                    <img src="img/event.svg" loading="lazy" alt="Event Icon" />
+                  </div>
+                </div>
+                <div class="cta-bottom">
+                  <p>View More</p>
+                  <img
+                    src="img/link.svg"
+                    class="cta-arrow"
+                    loading="lazy"
+                    alt="Link icon"
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="hero-image-block">
+            <img
+              src="img/jt-img.webp"
+              class="jt-sir-image"
+              loading="lazy"
+              sizes="(max-width: 479px) 94vw, (max-width: 767px) 71vw, (max-width: 991px) 43vw, 38vw"
+              alt="Jitendra Timbadiya"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mobile-card">
+      <div class="container">
+        <div class="hero-card-block">
+          <div class="cta-wrapper mobile">
+            <a href="#Contact" class="cta-block">
+              <div class="cta-header">
+                <div>Book <br />a Seminar</div>
+                <div class="skill-icon">
+                  <img
+                    src="img/seminar.svg"
+                    loading="lazy"
+                    alt="Seminar icon"
+                  />
+                </div>
+              </div>
+              <div class="cta-bottom">
+                <p>Contact us</p>
+                <img
+                  src="img/link.svg"
+                  class="cta-arrow"
+                  loading="lazy"
+                  alt="Link icon"
+                />
+              </div>
+            </a>
+            <a
+              href="https://www.dreamchild.in/events"
+              class="cta-block"
+              target="_blank"
+            >
+              <div class="cta-header">
+                <p>Upcoming<br />Events</p>
+                <div class="skill-icon">
+                  <img src="img/event.svg" loading="lazy" alt="Event Icon" />
+                </div>
+              </div>
+              <div class="cta-bottom">
+                <p>View More</p>
+                <img
+                  src="img/link.svg"
+                  class="cta-arrow"
+                  loading="lazy"
+                  alt="Link icon"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="About" scroll-margin-top="100px">
+      <div class="container">
+        <h2>About of <span class="linear-color">Jitendra</span> Timbadiya</h2>
+        <div class="element-wrapper">
+          <p class="center">
+            Mr. Jitendra Timbadiya is the Co-founder of ‘Dream Child Garbh
+            Sanskar’ & ‘Parenting Veda’ Institute, working for Child Brain
+            Development from the Womb to 25 Years of Life. He is a Pioneer of
+            changing the way of raising Children through App-Based Daily
+            Activtiy Programme by his 14 Years of Vedic & Scientific Research
+            and Experience. He guides Couples & Parents to reach their True
+            Potential, so their Child becomes best as a result. More than
+            10,00,000+ individuals have benefited from his Dynamic ‘Dream Child
+            Garbh Sanskar’ & ‘Parenting Veda’ App, Webinar, Seminar, Workshops &
+            Social Media Contents across 50+ Countries.
+          </p>
+        </div>
+        <div class="element-wrapper">
+          <div class="about-block">
+            <div class="flex-block">
+              <div class="lightbox-item">
+                <a
+                  href="#"
+                  class="lightbox-trigger"
+                  data-lightbox-type="video"
+                  data-video-url="https://www.youtube.com/watch?v=AlvUuGJccKs&list=RDjH4_GTRUC14&index=15&ab_channel=TipsOfficial"
+                >
+                  <img src="img/jt-intro.webp" alt="Video 1 Thumbnail" />
+                </a>
+              </div>
+            </div>
+            <div class="flex-block">
+              <ul role="list">
+                <li class="list-item">90% in 12th Science (1996)</li>
+                <li class="list-item">
+                  Acharya Level Education in Nyay, Vyakaran & Vedant
+                </li>
+                <li class="list-item">
+                  Profound Study of Philosophy & Psychology
+                </li>
+                <li class="list-item">
+                  Spiritual Coach - Former Monk of 22 Years
+                </li>
+                <li class="list-item">Concept Creator</li>
+                <li class="list-item">Writer, Poet & Music Composer</li>
+                <li class="list-item">'New India Mission' Activist</li>
+                <li class="list-item mb-0">
+                  10,00,000+ Parents have been Influenced Worldwide
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="bg">
+      <div class="container">
+        <div class="row">
+          <div class="row-block">
+            <h2 class="align-start">
+              <span class="linear-color">Milestones</span> achieved throughout
+              journey
+            </h2>
+          </div>
+          <div class="row-block">
+            <p class="mb-0">
+              I want to help Couples & Parents in raising their Children Easily
+              & Happily from the Womb. I want someone to remember me and say
+              because of you I was able to make my Child <strong>Happy</strong>,
+              <strong>Healthy</strong>, <strong>Tejasvi</strong> &
+              <strong>Sanskari</strong>, the Creator of 'New India'.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="element-wrapper">
+        <div class="card-flex-wrapper">
+          <div class="card-flex">
+            <div class="card-block">
+              <div class="skill-icon">
+                <img
+                  src="img/a-seminar.svg"
+                  loading="lazy"
+                  alt="seminar icon"
+                />
+              </div>
+              <p class="number">1000+</p>
+              <p class="card-text">
+                Seminars & Workshops on Garbh Sanskar and Parenting
+              </p>
+            </div>
+            <div class="card-block">
+              <div class="skill-icon">
+                <img
+                  src="img/a-counselling.svg"
+                  loading="lazy"
+                  alt="Counseling"
+                />
+              </div>
+              <p class="number">10,000+</p>
+              <p class="card-text">
+                Personal Counseling for Garbh Sanskar & Parenting
+              </p>
+            </div>
+            <div class="card-block">
+              <div class="skill-icon">
+                <img
+                  src="img/a-video-script.svg"
+                  loading="lazy"
+                  alt="Video Script"
+                />
+              </div>
+              <p class="number">100+</p>
+              <p class="card-text">
+                Plays & Video Scripts Written for Child Value Education
+              </p>
+            </div>
+            <div class="card-block">
+              <div class="skill-icon">
+                <img
+                  src="img/a-event.svg"
+                  loading="lazy"
+                  alt="event organization"
+                />
+              </div>
+              <p class="number">100+</p>
+              <p class="card-text">Mega Events Organised</p>
+            </div>
+            <div class="card-block">
+              <div class="skill-icon">
+                <img
+                  src="img/a-book-written.svg"
+                  loading="lazy"
+                  alt="book Written"
+                />
+              </div>
+              <p class="number">10+</p>
+              <p class="card-text">Children and Youth Books Written</p>
+            </div>
+            <div class="card-block">
+              <div class="skill-icon">
+                <img
+                  src="img/a-magazine-written.svg"
+                  loading="lazy"
+                  alt="Magazine written"
+                />
+              </div>
+              <p class="number">100+</p>
+              <p class="card-text">Children Magazine Written</p>
+            </div>
+            <div class="card-block">
+              <div class="skill-icon">
+                <img
+                  src="img/a-song-written.svg"
+                  loading="lazy"
+                  alt="Song Written"
+                />
+              </div>
+              <p class="number">100+</p>
+              <p class="card-text">Children and Spiritual Songs Written</p>
+            </div>
+            <div class="card-block">
+              <div class="skill-icon">
+                <img
+                  src="img/a-course-written.svg"
+                  loading="lazy"
+                  alt="Course written"
+                />
+              </div>
+              <p class="number">Basic & Advance</p>
+              <p class="card-text">
+                Children & Youth Development Course Written
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Project">
+      <div class="container">
+        <h2>Personal <span class="linear-color">Project</span></h2>
+        <div class="element-wrapper">
+          <div class="project-row">
+            <div class="project-detail _1">
+              <h3>1. Dream Child Garbh Sanskar® App-based Course</h3>
+              <p class="time-duration">
+                (for Baby-Planning to 9 Months Pregnant Couple)
+              </p>
+              <ul role="list" class="project-list">
+                <li class="list-item">2,50,000+ App Downloads</li>
+                <li class="list-item">
+                  25+ Daily Activities for PQ, IQ, EQ & SQ
+                </li>
+                <li class="list-item">
+                  Advanced Workshops, Weekly Classes, Material Kit, Personal
+                  Counseling, Expert's Sessions etc.
+                </li>
+                <li class="list-item mb-0">
+                  5,00,000+ Parents have been Influenced Worldwide
+                </li>
+              </ul>
+              <div class="button-wrapper">
+                <a
+                  href="https://www.dreamchild.in/"
+                  target="_blank"
+                  class="comman-buttton"
+                >
+                  <img src="img/dc-logo.svg" loading="lazy" alt="App Store" />
+                </a>
+                <div class="button-block">
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.weapplinse.dreamchild"
+                    target="_blank"
+                    class="comman-buttton"
+                  >
+                    <img
+                      src="img/google-play.webp"
+                      loading="lazy"
+                      alt="Google Play"
+                    />
+                  </a>
+                  <a
+                    href="https://apps.apple.com/in/app/dreamchild-garbh-sanskar/id1492221776"
+                    target="_blank"
+                    class="comman-buttton"
+                  >
+                    <img
+                      src="img/app-store.webp"
+                      loading="lazy"
+                      alt="App Store"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-image">
+              <img
+                src="img/dc-mockup-1.webp"
+                loading="lazy"
+                sizes="(max-width: 479px) 32vw, (max-width: 991px) 33vw, 16vw"
+                alt="DC App Mockup"
+                class="mockup _2"
+              />
+              <img
+                src="img/dc-mockup-2.webp"
+                loading="lazy"
+                sizes="(max-width: 479px) 37vw, (max-width: 991px) 38vw, 19vw"
+                alt="DC App Mockup"
+                class="mockup"
+              />
+              <img
+                src="img/dc-mockup-3.webp"
+                loading="lazy"
+                sizes="(max-width: 479px) 32vw, (max-width: 991px) 33vw, 16vw"
+                alt="DC App Mockup"
+                class="mockup _3"
+              />
+            </div>
+          </div>
+          <div class="project-row _2">
+            <div class="project-image">
+              <img
+                src="img/pv-mockup-1.webp"
+                loading="lazy"
+                sizes="(max-width: 479px) 32vw, (max-width: 991px) 33vw, 16vw"
+                alt="PV App Mockup"
+                class="mockup _2"
+              />
+              <img
+                src="img/pv-mockup-2.webp"
+                loading="lazy"
+                sizes="(max-width: 479px) 37vw, (max-width: 991px) 38vw, 19vw"
+                alt="PV App Mockup"
+                class="mockup"
+              />
+              <img
+                src="img/pv-mockup-3.webp"
+                loading="lazy"
+                sizes="(max-width: 479px) 32vw, (max-width: 991px) 33vw, 16vw"
+                alt="PV App Mockup"
+                class="mockup _3"
+              />
+            </div>
+            <div class="project-detail _2">
+              <h3>2. ‘Parenting Veda’® App-based Course</h3>
+              <p class="time-duration">
+                (for Parents of Child Aged 0 to 12 Years)
+              </p>
+              <ul role="list" class="project-list">
+                <li class="list-item">1,00,000+ App Downloads</li>
+                <li class="list-item">
+                  10+ Daily Activities for PQ, IQ, EQ & SQ
+                </li>
+                <li class="list-item">
+                  Advanced Workshops & Knowledge, Material Kit (1200+ Flax
+                  Cards), Personal Counseling, Expert’s Sessions etc.
+                </li>
+                <li class="list-item mb-0">
+                  5,00,000+ Parents have been Influenced Worldwide
+                </li>
+              </ul>
+              <div class="button-wrapper">
+                <a
+                  href="https://www.parentingveda.com/"
+                  target="_blank"
+                  class="comman-buttton"
+                >
+                  <img
+                    src="img/pv-logo.webp"
+                    loading="lazy"
+                    sizes="(max-width: 479px) 32vw, (max-width: 991px) 144.78125px, 14vw"
+                    alt="pv-logo"
+                  />
+                </a>
+                <div class="button-block">
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.weapplinse.parenting"
+                    target="_blank"
+                    class="comman-buttton"
+                  >
+                    <img
+                      src="img/google-play.webp"
+                      loading="lazy"
+                      alt="Google Play"
+                    />
+                  </a>
+                  <a
+                    href="https://apps.apple.com/us/app/parenting-veda-app-for-parents/id1576061337"
+                    target="_blank"
+                    class="comman-buttton"
+                  >
+                    <img
+                      src="img/app-store.webp"
+                      loading="lazy"
+                      alt="App Store"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h3>3. 'Garbh Sanskar to Garbh Sanskar'®</h3>
+            <p class="time-duration">
+              (The Whole Human Development Cycle: From Pregnancy-Planning to Age
+              25 Years)
+            </p>
+            <ul role="list" class="project-list mb-0">
+              <li class="list-item">
+                Garbh Sanskar, Shishu Sanskar, Bal Sanskar & Yuva Sanskar
+              </li>
+              <li class="list-item">
+                ‘Child Preneur’® Project to make Child Bussines-Ready from the
+                age 10 Year
+              </li>
+              <li class="list-item">
+                ‘I am Sanskari’® Project to beautify the surrounding of Child by
+                Great Heroes of the World
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Skill" class="bg">
+      <div class="container">
+        <h2 class="center">
+          A core set of My <span class="linear-color">Strengths</span> to Drive
+          Success
+        </h2>
+        <div class="element-wrapper">
+          <div class="skill-card-wrapper">
+            <div class="skill-card">
+              <div class="skill-icon">
+                <img
+                  src="img/a-counselling.svg"
+                  loading="lazy"
+                  alt="Holistic Thinking"
+                />
+              </div>
+              <p>Holistic Thinking</p>
+            </div>
+            <div class="skill-card _2">
+              <div class="skill-icon">
+                <img
+                  src="img/s-public-speaking.svg"
+                  loading="lazy"
+                  alt="Public Speaking"
+                />
+              </div>
+              <p>Effective Public Speaking</p>
+            </div>
+            <div class="skill-card _1">
+              <div class="skill-icon">
+                <img src="img/s-writing.svg" loading="lazy" alt="Writing" />
+              </div>
+              <p>Conceptual Writing</p>
+            </div>
+            <div class="skill-card _2">
+              <div class="skill-icon">
+                <img
+                  src="img/s-counseling.svg"
+                  loading="lazy"
+                  alt="Counseling"
+                />
+              </div>
+              <p>Emphatic Counseling</p>
+            </div>
+            <div class="skill-card last">
+              <div class="skill-icon">
+                <img src="img/s-organizing.svg" loading="lazy" alt="Organize" />
+              </div>
+              <p>Organizing Big</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video">
+      <div class="container">
+        <h2 class="center"><span class="linear-color">Video</span> Gallery</h2>
+        <div class="element-wrapper">
+          <div class="video-gallery">
+            <div id="video-1" class="featured-video">
+              <div
+                class="video-container"
+                onclick="openLightbox('https://www.youtube.com/embed/YC9L-CEvy5g')"
+              >
+                <img
+                  src="img/v-gs-seminar.webp"
+                  alt="Video Thumbnail"
+                  id="thumbnail"
+                />
+                <div class="video-title">
+                  <p>Garbh Sanskar Seminar</p>
+                </div>
+              </div>
+            </div>
+            <div id="video-2">
+              <div
+                class="video-container"
+                onclick="openLightbox('https://www.youtube.com/embed/6CfhagJSUdk')"
+              >
+                <img
+                  src="img/v-shishu-samrthya.webp"
+                  alt="Video Thumbnail"
+                  id="thumbnail"
+                />
+                <div class="video-title">
+                  <p>Shishu Samarthya Seminar</p>
+                </div>
+              </div>
+            </div>
+            <div id="video-3">
+              <div
+                class="video-container"
+                onclick="openLightbox('https://www.youtube.com/embed/1Kk1J8RGsOU')"
+              >
+                <img
+                  src="img/v-bal-samarthya.webp"
+                  alt="Video Thumbnail"
+                  id="thumbnail"
+                />
+                <div class="video-title">
+                  <p>Bal Samarthya Seminar</p>
+                </div>
+              </div>
+            </div>
+            <div id="video-4">
+              <div
+                class="video-container"
+                onclick="openLightbox('https://www.youtube.com/embed/ElPHcQ1AUw4')"
+              >
+                <img
+                  src="img/v-gs-mahotsav.webp"
+                  alt="Video Thumbnail"
+                  id="thumbnail"
+                />
+                <div class="video-title">
+                  <p>Garbh Sanskar Mahotsav</p>
+                </div>
+              </div>
+            </div>
+            <div id="video-5">
+              <div
+                class="video-container"
+                onclick="openLightbox('https://www.youtube.com/embed/_01uHZuZMNA')"
+              >
+                <img
+                  src="img/v-parenting-mahotsav.webp"
+                  alt="Video Thumbnail"
+                  id="thumbnail"
+                />
+                <div class="video-title">
+                  <p>Parenting Mahotsav</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Achievement" scroll-margin-top="100px" class="pt-0">
+      <div class="container">
+        <h2 class="center">
+          My Deepest <span class="linear-color">Satisfaction</span>
+        </h2>
+        <div class="element-wrapper">
+          <div class="roadmap-wrapper">
+            <div class="center-line"></div>
+            <div class="line-card-block left">
+              <div class="line-card left">
+                <p>Expertise in Child Brain Development from the Womb</p>
+              </div>
+              <div class="connector left">
+                <div class="circle big">
+                  <div class="circle-inner"></div>
+                </div>
+                <div class="line"></div>
+                <div class="circle small">
+                  <div class="circle-inner"></div>
+                </div>
+              </div>
+            </div>
+            <div class="line-card-block right">
+              <div class="connector right">
+                <div class="circle small">
+                  <div class="circle-inner"></div>
+                </div>
+                <div class="line"></div>
+                <div class="circle big">
+                  <div class="circle-inner"></div>
+                </div>
+              </div>
+              <div class="line-card">
+                <p>
+                  A Pioneer of App-Based Daily Activity Programme for Garbh
+                  Sanskar & Parenting
+                </p>
+              </div>
+            </div>
+            <div class="line-card-block left">
+              <div class="line-card">
+                <p>
+                  Garbh Sanskar University Course: BOS Member at Children's
+                  University, Gandhinagar
+                </p>
+              </div>
+              <div class="connector left">
+                <div class="circle big">
+                  <div class="circle-inner"></div>
+                </div>
+                <div class="line"></div>
+                <div class="circle small">
+                  <div class="circle-inner"></div>
+                </div>
+              </div>
+            </div>
+            <div class="line-card-block right">
+              <div class="connector right">
+                <div class="circle small">
+                  <div class="circle-inner"></div>
+                </div>
+                <div class="line"></div>
+                <div class="circle big">
+                  <div class="circle-inner"></div>
+                </div>
+              </div>
+              <div class="line-card">
+                <p>
+                  Featured in ‘The Times of India’ and ‘The New York Times’ for
+                  the Garbh Sanskar Movement
+                </p>
+              </div>
+            </div>
+            <div class="line-card-block left mb-0">
+              <div class="line-card">
+                <p>
+                  Organized 5 Mega events Named ‘Garbh Sanskar Mahotsav’ &
+                  ‘Parenting Mahotsav’ catered 5,000+ Couples & Parents
+                </p>
+              </div>
+              <div class="connector left">
+                <div class="circle big">
+                  <div class="circle-inner"></div>
+                </div>
+                <div class="line"></div>
+                <div class="circle small">
+                  <div class="circle-inner"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="photo" class="pt-0">
+      <div class="container">
+        <h2 class="center"><span class="linear-color">Photo</span> Gallery</h2>
+      </div>
+      <div class="element-wrapper">
+        <div class="picture-wrapper left-wrapper">
+          <div class="d-flex">
+            <div class="lightbox-2">
+              <img
+                src="img/p-1.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-2.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-3.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-4.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-5.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-6.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-7.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-8.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="lightbox-2">
+              <img
+                src="img/p-1.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-2.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-3.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-4.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-5.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-6.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-7.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-8.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="picture-wrapper right-wrapper">
+          <div class="d-flex">
+            <div class="lightbox-2">
+              <img
+                src="img/p-9.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-10.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-11.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-12.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-13.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-14.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-15.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-16.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="lightbox-2">
+              <img
+                src="img/p-9.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-10.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-11.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-12.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-13.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-14.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-15.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+            <div class="lightbox-2">
+              <img
+                src="img/p-16.webp"
+                loading="lazy"
+                alt="Event Image"
+                class="full-height"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Featured" class="pt-0">
+      <div class="container">
+        <h2 class="center">
+          <span class="linear-color">Featured</span> In News
+        </h2>
+        <div class="element-wrapper">
+          <div class="featured-wrapper">
+            <a
+              class="featured-card"
+              href="img/n-divyabhaskar-view.jpg"
+              data-lightbox="models"
+              data-title="Divya Bhaskar"
+            >
+              <img
+                src="img/n-divyabhaskar.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
+            </a>
+            <a
+              class="featured-card"
+              href="img/Hello Entrepreneurs.jpg"
+              data-lightbox="models"
+              data-title="Hello Entrepreneurs"
+            >
+              <img
+                src="img/n-hello-entreprenurs.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
+            </a>
+            <a
+              class="featured-card"
+              href="img/Gujarat Mitra Post.jpg"
+              data-lightbox="models"
+              data-title="Gujarat Mitra"
+            >
+              <img
+                src="img/n-gujarat mitra.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
+            </a>
+            <a
+              class="featured-card"
+              href="img/New York Post.jpg"
+              data-lightbox="models"
+              data-title="The New York Times"
+            >
+              <img
+                src="img/n-nyt.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
+            </a>
+            <a
+              class="featured-card"
+              href="img/n-dhabkar-view.jpg"
+              data-lightbox="models"
+              data-title="Dhabkar"
+            >
+              <img
+                src="img/n-dhabkar.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
+            </a>
+            <a
+              class="featured-card"
+              href="img/652006b3d0cc90859324d797_5-image.jpg"
+              data-lightbox="models"
+              data-title="Gujarat Samachar"
+            >
+              <img
+                src="img/n-gujaratsamachar.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
+            </a>
+            <a
+              class="featured-card"
+              href="img/652006efaec4d72161786a79_9-image.jpg"
+              data-lightbox="models"
+              data-title="The Times of India"
+            >
+              <img
+                src="img/n-toi.webp"
+                loading="lazy"
+                alt="News Image"
+                class="feature-thumbnail"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Contact" class="contact">
+      <div class="container">
+        <div class="contact-wrapper">
+          <h2 class="contact-title">For Online/Offline Seminar Booking</h2>
+          <p>Contact us on below phone number on office day at office time.</p>
+          <div class="contact-block">
+            <a href="#" class="link">+91 97378 18000</a>
+            <p class="contact-post">Vartik Gajjar (Seminar organizer)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Book" class="book-section">
+      <div class="container">
+        <h2 class="center"><span class="linear-color">Books</span></h2>
+        <div class="element-wrapper">
+          <div class="book-row">
+            <a
+              href="https://store.dreamchild.in/products/dreamchild-book"
+              target="_blank"
+              class="book-wrapper"
+            >
+              <img
+                src="img/b-mindset.webp"
+                loading="lazy"
+                alt="Dreamchild Book"
+                class="book-image"
+              />
+            </a>
+            <a
+              href="https://store.dreamchild.in/products/garbhsanskar-gujarati"
+              target="_blank"
+              class="book-wrapper"
+            >
+              <img
+                src="img/b-garbhsanskar-g.webp"
+                loading="lazy"
+                alt="Garbhsanskar Book"
+                class="book-image"
+              />
+            </a>
+            <a
+              href="https://store.dreamchild.in/products/garbhsanskar-hindi"
+              target="_blank"
+              class="book-wrapper"
+            >
+              <img
+                src="img/b-garbhsanskar-h.webp"
+                loading="lazy"
+                alt="Garbhsanskar Book"
+                class="book-image"
+              />
+            </a>
+            <a
+              href="https://www.amazon.in/PARENTING-VEDA-Child-Brain-Development/dp/B0CSG1NGZ5"
+              target="_blank"
+              class="book-wrapper"
+            >
+              <img
+                src="img/b-parenting.webp"
+                loading="lazy"
+                alt="Parenting Veda Book"
+                class="book-image"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <p>©2023, Jitendra Timbadiya. All Rights Reserved.</p>
+          <div class="social-icon-block">
+            <a href="mailto:jitendra@dreamchild.in" class="social-link-block">
+              <img src="img/mail.svg" loading="lazy" alt="Mail Icon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/jitendra-timbadiya-5989591b2/"
+              target="_blank"
+              class="social-link-block"
+            >
+              <img
+                src="img/linked-in.svg"
+                loading="lazy"
+                alt="Linked in Icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="lightbox-modal">
+      <span class="lightbox-close">&times;</span>
+      <div class="lightbox-content">
+        <iframe
+          id="lightbox-video"
+          class="lightbox-video"
+          src=""
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+        <img
+          id="lightbox-image"
+          class="lightbox-image"
+          src=""
+          alt="Lightbox Image"
+        />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="lightbox-plus-jquery.js"></script>
+  </body>
+</html>
